@@ -1,0 +1,60 @@
+h1{
+  text-align: center;
+  background-color: darkgray;
+  box-shadow: 2px 2px 2px;
+}
+
+h2{
+  text-align: center ;
+  background-color: darkgray;
+  box-shadow: 2px 2px 2px;
+}
+
+
+p{
+  text-align: center;
+  
+}
+
+body{
+  background-color: grey;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.yuh {
+  float: left;
+  width: 16.66%; 
+  padding: 5px;
+}
+
+
+.yummy::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h3{
+  text-align: center;
+}
